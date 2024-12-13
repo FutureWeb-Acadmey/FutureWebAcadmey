@@ -1,0 +1,47 @@
+
+
+.FooterCont{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(214,0,132,1) 35%, rgba(112,32,140,1) 100%);
+}
+
+.FooterBox1 {
+    padding-top: 40px;
+}
+
+.FooterBox1 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.FooterCont section{
+    width: 20%;
+}
+
+.FooterCont section h3{
+    color: white;
+    font-size: 30px;
+}
+
+.FooterCont section ul li{
+    list-style: none;
+    margin-bottom:20px ;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: -30px;
+}
+
+
+.FooterBox1 img{
+    height: 70px;
+}
+
+
+.FooterBox4 p{
+    font-size: 22px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}

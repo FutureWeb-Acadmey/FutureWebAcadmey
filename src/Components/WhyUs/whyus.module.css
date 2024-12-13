@@ -1,0 +1,40 @@
+.whyuscont{
+    margin-top: 100px;
+    background: linear-gradient(357deg, rgba(112,32,140,1) 20%, rgba(214,0,132,1) 100%);
+}
+.headerwrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.whyuscont h1{
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.whyusContent{
+    display: flex;
+    margin-top: 0px;
+    color: white;
+}
+
+.whyusContent img{
+    width: 40%;
+}
+
+.whyuslist{
+    width: 60%;
+    display: flex;
+    align-items: start;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: space-around;
+    padding-top:50px
+}
+
+.whyuslist ul li{
+    margin-top: 50px;
+    list-style: none;
+}

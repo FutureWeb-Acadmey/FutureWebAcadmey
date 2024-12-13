@@ -1,0 +1,91 @@
+.HomepageMainCont{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.HomePageMainContent{
+    width: 50%;
+    padding-left: 50px;
+    
+}
+
+.HomePageMainContent h3{
+    border: 2px solid #d60084;
+    color: #d60084 ;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 22px;
+    box-shadow: 0 0 5px 5px #d60084;
+
+}
+
+.HomePageMainContent h3 span{
+    margin-right: 10px;
+ }
+
+
+
+.HomePageMainContent h1{
+    padding-right: 100px;
+    font-size: 54px;
+    font-weight: bolder;
+    background: linear-gradient(90deg, rgba(214,0,132,1) 35%, rgba(112,32,140,1) 100%);
+    background-clip: text;
+    color: transparent;
+  
+}
+
+.HomePageMainContent h2{
+    font-size: 40px;
+    padding-right: 100px;
+    font-weight: 300;
+}
+
+.HomePageMainContent button{
+    width: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding: 20px 0;
+    cursor: pointer;
+   
+}
+
+
+.HomePageMainContent button:nth-child(1){
+    background: linear-gradient(90deg, rgba(214,0,132,1) 35%, rgba(112,32,140,1) 100%);
+}
+
+.HomePageMainContent button:nth-child(2){
+    border: 3px solid #d60084;
+    color: #d60084;
+}
+
+.HomePageMainIcons{
+    padding-top: 20px;
+}
+
+
+.HomePageMainIcons img{
+    height: 50px;
+    margin-right: 20px;
+    
+}
+
+.HomePageMainImage{
+    width: 45%;
+   
+}
+
+.HomePageMainImage img{
+    width: 100%;
+}

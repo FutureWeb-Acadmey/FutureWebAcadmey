@@ -1,0 +1,28 @@
+.PlacementCont{
+    display: flex;
+}
+
+.PlacementImg 
+{
+    width: 40%;
+}
+
+.PlacementImg img{
+    width: 100%;
+}
+
+.Placementcontent {
+    padding-left: 100px;
+}
+
+.PlacementHeader {
+    font-size: 50px;
+}
+
+.PlacementList ul li{
+    list-style:decimal;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+

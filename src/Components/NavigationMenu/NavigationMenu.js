@@ -6,7 +6,9 @@ const NavigationMenu = () => {
   return (
     <>
     <div className={styles.menuWrappper}>
-      <div className={styles.logoWrapper}>Logo</div>
+      <div className={styles.logoWrapper}>
+      <Link href="/"> <img src="/images/logo.png"  alt="Your Name" /></Link>
+      </div>
     <nav className={styles.navbar}>
       <Link href="/">Home</Link>
       <Link href="/courses">Courses</Link>
